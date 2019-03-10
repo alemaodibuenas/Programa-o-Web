@@ -1,0 +1,108 @@
+/*<link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet"> */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 960px;
+	margin: 0 auto;
+	background: #fff9e8;
+	background-image: url(https://us.123rf.com/450wm/taraschernenko/taraschernenko1704/taraschernenko170400024/75406574-fragmento-da-parede-de-madeira-rachada-em-madeira-de-madeira-r%C3%BAstica-textura-de-fundo-da-parede-do-regis.jpg?ver=6);
+	background-size: 25% 25%;
+  	background-repeat: repeat;
+}
+div{
+	padding-left: 15px;
+	font-family: 'Rye', cursive; 
+}
+a{
+	color: #474231;
+}
+.page-wrapper{
+	background: #ffe496;
+	background-image: url(https://img.freepik.com/fotos-gratis/fundo-de-papel-antigo-do-vintage-grunge_1373-431.jpg?size=626&ext=jpg);		
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+}
+header{	
+	width: 800px;
+	margin: 3px auto;
+	padding: 3px;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Rye', cursive;    
+}
+.summary{
+	line-height: 5px;
+	font-size: 12px; 
+	text-align: center;
+	display: block;	
+	width: 910px;
+	border-bottom:  5px double black;
+	border-top: 5px double black;
+	border-width: 10px;
+}
+.preamble{
+	width: 167px;
+	float: left;
+}
+.explanation{
+	width: 167px;
+	float: left;
+}
+.participation{
+	width: 167px;
+	float: left;
+}
+.benefits{
+	width: 167px;
+	float: left;
+}
+.requirements{
+	width: 167px;
+	float: left;
+}
+footer{
+	width: 500px;
+	margin: 0 0 10px 230px;
+	display: inline-block;
+}
+footer a{
+	padding: 6px 23px;
+	display: inline-block;
+	background: #bca253;
+}
+.sidebar{
+	margin-left: -15px;
+	margin-bottom: -5px;
+	display: inline-block;
+	background: #7c7970;
+	width: 960px;
+}
+.wrapper{
+	color: #f2f0ea;
+}
+.design-selection{
+	float: left;
+}
+.design-archives{
+	float: left;
+}
+.zen-resources{
+	float: left;
+}
+.wrapper a{
+	color: #f2f0ea;
+}
+.extra1{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	margin-left: 15px;	
+	top: 1500px;	
+	background-image: url(http://1.bp.blogspot.com/-ztCAZALmuUo/TlBcwGGetuI/AAAAAAAAAdU/_dnjgjUVSaI/s1600/railroadmen600.jpg);
+	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	float: right;
+}

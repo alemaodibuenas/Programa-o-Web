@@ -1,0 +1,78 @@
+.layout{
+	border: 2px solid;
+	height: 900px;
+	width: 	930px;
+}
+
+.cabecalho{
+	border: 2px solid;
+	height:120px;
+	width: 800px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+.foto{
+	border: 2px solid;
+	height:100px;
+	width: 100px;
+	margin-top: 10px;  	 	
+  	margin-left: 10px;	
+	float: left;
+	background-image: url("https://www.escritas.org/autores/emil-cioran.jpg" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.identificacao{
+	border: 2px solid;
+	height:100px;
+	width: 650px;
+	margin-top: 10px;
+	margin-left: 10px;	
+	float: left;
+}
+
+
+.apresentacao{
+	border: 2px solid;
+	height: 220px;
+	width: 800px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+.academia{
+	border: 2px solid;
+	height: 100px;
+	width: 650px;
+	margin-top: 10px;
+	margin-left: 10px;		
+}
+
+.extracurricular{
+	border: 2px solid;
+	height: 100px;
+	width: 650px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.formacao{
+	border: 2px solid;
+	height: 240px;
+	width: 800px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+.informacao{
+	border: 2px solid;
+	height: 220px;
+	width: 800px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+
+

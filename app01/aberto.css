@@ -1,0 +1,90 @@
+.layout{
+	border: 4px  ridge;
+	height: 900px;
+	width: 	930px;  
+  	background-image: url("https://arbordayblog.org/wp-content/uploads/2016/06/tree.jpg");
+ 	background-repeat: no-repeat;
+}	
+
+.cabecalho{
+	border: 4px  ridge;
+	height:	120px;
+	width: 	800px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+
+.foto{
+	border: 4px  ridge;
+	height:100px;
+	width: 100px;
+	margin-top: 10px ;  	 	
+  	margin-left: 680px;		
+	background-image: url("https://www.escritas.org/autores/emil-cioran.jpg" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.identificacao{
+	border: 4px  ridge;
+	height: 100px;
+	width: 650px;
+	margin-top: 30px;
+	margin-left: 10px;	
+	float: left;	
+}
+.subidentificacao{
+	border: 4px ridge;
+	width: 500px;
+	margin-top: 35px;
+	margin-left: 15px;	
+	float: left;
+}
+
+.apresentacao{
+	border: 4px  ridge;
+	height: 220px;
+	width: 800px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+.academia{
+	border: 4px  ridge;
+	height: 100px;
+	width: 	650px;
+	margin-top: 10px;
+	margin-left: 10px;		
+}
+
+.extracurricular{
+	border: 4px  ridge;
+	height: 100px;
+	width: 	650px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.formacao{
+	border:	4px  ridge;
+	height: 240px;
+	width: 	800px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+.foto2{
+	border: 4px  ridge;
+	height:200px;
+	width: 200px;
+	margin-top: 20px ;  	 	
+  	margin-left: 700px;	
+	background-image: url("https://cdn.ecvol.com/s/www.artcutlab.com.br/produtos/arvore-da-vida/g/0.jpeg" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+

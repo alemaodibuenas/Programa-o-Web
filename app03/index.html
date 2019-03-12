@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>eXtensible Hypertext Markup Language</title> 
+</head>
+<body>
+	<div id="parte-1" class="parte1">
+	<h1><strong>XHTML</strong></h1>
+	<pre>
+	O <strong>XHTML</strong>, ou <strong>eXtensible Hypertext Markup Language</strong>, é uma reformulação da linguagem de marcação
+	HTML, baseada em XML. Combina as tags de marcação HTML com regras da XML. Este processo de
+	padronização tem em vista a exibição de páginas Web em diversos dispositivos (televisão, palm, celular, etc).
+	Sua intenção é melhorar a acessibilidade.</pre>
+	<pre>
+	O XHTML consegue ser interpretado por qualquer dispositivo, independentemente da plataforma utilizada, pois
+	as marcações possuem sentido semântico para as máquinas. O HTML não consegue esta implementação. No
+	entanto, não existem muitas diferenças entre o HTML e o XHTML. Para verificar se uma página XHTML está
+	bem construída, o melhor método é validar o código através de uma aplicação Web disponibilizada pela
+	organização W3C.<a href="#parte-3">[1]</a></pre></div>
+
+	<div id="parte-2" class="parte2">
+	<hr></hr >
+	<h1>Versões de XHTML</h1>
+	<h2>XHTML 1.0</h2>
+
+	<pre>
+	A Recomendação XHTML original da W3C, XHTML 1.0, foi simplesmente uma reformulação do HTML 4.01
+	em XML. Existem três diferentes "DTDs" de XHTML 1.0, cada qual com equivalência a uma versão em
+	HTML 4.01.</pre>
+	<h3>•	XHTML 1.0 Strict</h3>
+	<pre>		é o mesmo que HTML 4.01 Strict, mas seguindo regras de sintaxe XML.</pre>
+	<h3>•	XHTML 1.0 Transitional</h3>
+	<pre>		é o mesmo que HTML 4.01 Transitional, mas segue as regras de sintaxe XML. Ele suporta tudo
+		encontrado no XHTML 1.0 Strict, mas também permite o uso de vários elementos e atributos que
+		são julgados presencionais, para facilitar a transição de HTML 3.2 e mais recentes. Isso inclui
+		<&nbsp;center>, <&nbsp;u>, <&nbsp;strike>, e <&nbsp;applet>.</pre>
+	<h3>•	XHTML 1.0 Frameset</h3>
+	<pre>		é o mesmo que HTML 4.01 Frameset, mas seguindo as regras de sintaxe XML. Ele permite a
+		definição de um frameset HTML, uma prática comum em versões de HTML anteriores ao HTML
+		4.01.</pre>
+
+	<h2>	XHTML 1.1</h2>
+
+	<pre>
+	A mais recente Recomendação XHTML da W3C é o XHTML 1.1: Module-based XHTML, que é uma
+	reformulação do XHTML 1.0 Strict, com pequenas modificações, usando alguns módulos de um conjunto
+	definido em Modularização de XHTML, <a href="#parte-3">[2]</a> uma Recomendação W3C que cria uma modularização de frames,
+	um padrão de módulos, e várias outras definições. Todas as ferramentas depreciadas de HTML, como
+	elementos presencionais e framesets, e até mesmo os atributos lang e o atributo de âncoras name, que ainda
+	eram permitidos no XHTML 1.0 Strict, foram removidos desta versão. A apresentação é controlada puramente 
+	pelas Folhas de Estilo em Cascata (CSS). Esta versão também permite suporte à marcação rubi, necessária para
+	línguas do Extremo Oriente (especialmente CJK).</pre>
+
+	<pre>
+	Além da Modularização de XHTML permitir pequenas ferramentas XHTML serem reutilizadas por outras
+	aplicações XML de uma maneira bem definida, e que o XHTML seja estendido para alguns propósitos,
+	XHTML 1.1 adiciona o conceito de um documento "estritamente conformado": esses documentos definidos nos
+	módulos requeridos para XHTML 1.1. Por exemplo, se um documento é estendido para usar o módulo XHTML
+	Frames (frameset), ele também pode ser descrito como XHTML 1.1, mas não estritamente conforme o XHTML
+	1.1. Ao invés disso, ele deve ser descrito como um XHTML Host Language Conforming Document, <a href="#parte-3">[3]</a> se a
+	ferramenta for relevante e necessária.</pre></div>
+
+
+	<div class="parte3">
+	<h1>XHTML 2.0</h1>
+	<pre>
+	A segunda edição do XHTML foi publicada pela W3C em 2010: <a style="color: red" href="https://www.w3.org/TR/xhtml2/">https://www.w3.org/TR/xhtml2/ .</a></pre>
+	<hr></hr >
+
+	<h2 id="parte-3">Diferenças mais importantes em relação ao HTML:</h1>
+
+
+<pre>
+	1. Estrutura do documento:
+			a. XHTML DOCTYPE é <strong>obrigatório</strong>
+			b. O atributo xmlns na tag <&nbsp;html> é <strong>obrigatório</strong> 
+			c. <&nbsp;html>, <&nbsp;head>, <&nbsp;title>, e <&nbsp;body> são <strong>obrigatórios</strong>
+	2. Elementos XHTML
+			a. Elementos XHTML devem ser corretamente <strong>aninhados</strong>
+			b. Elementos XHTML sempre <strong>devem ser fechados</strong>
+			c. Elementos XHTML devem ser escritos em letra <strong>minúscula</strong>
+			d. Documentos XHTML devem ter <strong>somente um elemento raiz</strong>
+	3. Atributos XHTML
+			a. Nomes de atributos devem ser em letra <strong>minúscula</strong>
+			b. Valores de atributos devem estar entre <strong>aspas duplas</strong>
+			c. A minimização de atributos é <strong>proibida</strong></pre>
+
+<h2>Documentos XHTML válidos</h1>
+<pre>
+	Um documento XHTML que está em conformidade com uma especificação XHTML, é dito válido. Validade
+	garante consistência no código, que por sua vez facilita o processamento, mas não necessariamente garante
+	renderização consistente nos navegadores.
+<h2>Referências</h1>
+	1. The W3C Markup Validator Service  <strong style="color: red">[http://validator.w3.org/]</strong>
+	2. XHTML Modularization <strong style="color: red">[http://www.w3.org/TR/xhtml-modularization/]</strong>
+	3. XHTML Host Language Conforming Document <strong style="color: red">[http://www.w3.org/TR/2001/REC-xhtml-
+	   modularization-20010410/conformance.html#s_conform_document]</strong></pre></div>
+</body>
+</html>
+

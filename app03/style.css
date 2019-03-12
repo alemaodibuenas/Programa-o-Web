@@ -1,0 +1,63 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+}
+.parte1{
+	margin: 0 auto;	
+}
+.parte1 h1{
+	text-align: center;
+	font-size: 100px;
+	color: red;
+}
+.parte1 pre{
+	display: inline-block;
+	font-size: 30px;	
+}
+.parte1 hr{
+	margin-top: 40px;
+}
+.parte2{
+	margin: 0 auto;
+}
+.parte2 h1{
+	text-align: left;
+	font-size: 40px;
+	text-decoration: underline;
+	color: blue;
+}
+.parte2 h2{
+	margin-left: 65px;
+	font-size: 30px; 
+	text-decoration: underline;
+	color: #088A08;
+}
+.parte2 h3{
+	font-size: 30px;
+}
+.parte2 pre{
+	display: inline-block;
+	font-size: 30px;
+}
+.parte3{
+	margin: 0 auto;
+}
+.parte3 h1{
+	margin-left: 65px;
+	font-size: 30px; 
+	text-decoration: underline;
+}
+.parte3 h2{
+	margin-left: 65px;
+	font-size: 30px; 
+	text-decoration: underline;
+	color: blue;
+}
+.parte3 pre{
+	display: inline-block;
+	font-size: 30px;	
+}
+
